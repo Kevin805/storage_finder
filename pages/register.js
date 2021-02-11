@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import {useState, useContext} from 'react'
-import valid from './utils/valid'
-import{DataContext} from './store/GlobalState'
-import {postData} from './utils/fetchData'
+import {useState, useContext, useEffect} from 'react'
+import valid from '../utils/valid'
+import {DataContext} from '../store/GlobalState'
+import {postData} from '../utils/fetchData'
 
 
 const Register = () => {
