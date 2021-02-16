@@ -16,11 +16,15 @@ const userSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        default: user
+        default: "user"
     },
     root: {
         type: Boolean,
         default: false
+    },
+    avatar: {
+        type: String,
+        default: 'https://res.cloudinary.com/devatchannel/image/upload/v1602752402/avatar/avatar_cugq40.png'
     }
 
 }, {
