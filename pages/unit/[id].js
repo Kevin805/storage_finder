@@ -17,12 +17,12 @@ const DetailUnit = (props) => {
     }
 
     return(
-        <div className="row detail_page">
+        <div className="row detail_page" >
             <Head>
                 <title> Detail Unit </title>
             </Head>
 
-            <div className="col-md-6">
+            <div className="col-md-6" style={{marginTop: '32px'}}>
                 <img src={ unit.images[tab].url } alt={ unit.images[tab].url }
                 className="d-block img-thumbnail rounded mt-4 w-100"
                 style={{height: '350px'}} />
@@ -39,15 +39,14 @@ const DetailUnit = (props) => {
                 </div>
             </div>
             <div className="col-md-6 mt-3">
-                <h3 className="text-uppercase">{unit.title}</h3>
-                <h5 className="text-dark">${unit.price} Monthly Rate</h5>
-                <div className="my-2">{unit.description}</div>
+                <h3 className="text-uppercase" style={{marginTop: '40px'}}>{unit.title}</h3>
+                <h5 className="text-dark align-left">${unit.price} Monthly Rate</h5>
                 <div className="my-2">
                     {unit.content}
                 </div>
                 <Link href={"/email"}>
-                    <a className="btn btn-dark"
-                style={{marginLeft: '5px', marginBottom: '15px',flex: 2}}>Contact</a>
+                    <a className="btn btn-dark "
+                style={{marginLeft: '-1px', marginBottom: '15px', marginTop: '7px', flex: 2}}>Contact</a>
                 </Link>
             </div>
         </div>

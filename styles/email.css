@@ -1,13 +1,18 @@
 h2 {
-    margin-top: 10mm;
-    margin-left: 75mm;
+    margin-top: 20mm;
+    margin-left: 52mm;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
 }
 
 h4 {
-    margin-top: 5mm;
-    margin-left: 113mm;
+    margin-top: 2mm;
+    margin-bottom: 0mm;
+    margin-left: 52mm;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+}
+
+form {
+    margin-top: 5mm;
 }

@@ -28,10 +28,12 @@ const Email = () => {
       <title>Email Contact</title>
       </Head>
         <div className="container">
-          <h2> Let the Renter know you're interested! </h2>
+          <div className=" ">
+            <h2> Let the Renter know you're interested! </h2>
+            </div>
+          
           <h4> Send an email below: </h4>
         <form onSubmit={sendEmail}>
-              <div className="row pt-5 mx-auto">
                   <div className="col-8 form-group mx-auto">
                   <input type="text" className="form-control" placeholder="Name" name="name"/>
               </div>
@@ -47,7 +49,6 @@ const Email = () => {
                   <div className="col-8 form-group mx-auto">
                   <input type="submit" className="btn btn-info w-100" value="Send Email"></input>
               </div>
-            </div>
         </form>
       </div>
     </div>

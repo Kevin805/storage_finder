@@ -70,11 +70,16 @@
 .dropdown-menu {
   padding: 0;
   margin: 0;
-  background: #ffffff;
+  background: #f9f9f9;
   border: none;
   box-shadow: none;
   min-width: 90px;
 }
+
+.dropdown-menu :hover {
+  background: #f0f0f0;
+}
+
 
 .dropdown-menu li:last-child a {
   margin-bottom: 10px;
